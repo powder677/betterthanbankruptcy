@@ -3,27 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Command Center | MoreThanBankruptcy</title>
-    <meta name="description" content="Your personal Board of Directors. Use our AI agents to audit your credit, simulate bankruptcy outcomes, and reduce financial anxiety.">
+    
+    <title>AI Command Center: Your Financial Board of Directors | MoreThanBankruptcy</title>
+    <meta name="description" content="Access our suite of AI agents. Use the Financial Strategist, Credit Audit Protocol, and Bankruptcy Simulator to manage your recovery 24/7.">
+    <meta name="robots" content="index, follow">
     
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <style>
         body { font-family: 'Inter', sans-serif; }
+        /* Subtle hover lift for cards */
+        .tool-card { transition: all 0.3s ease; }
         .tool-card:hover { transform: translateY(-4px); }
     </style>
 </head>
-<body class="bg-slate-900 text-slate-100 antialiased">
+<body class="bg-slate-900 text-slate-100 antialiased selection:bg-blue-500 selection:text-white">
 
     <nav class="w-full bg-slate-900 border-b border-slate-800 py-4 sticky top-0 z-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-            <a href="/" class="text-xl font-bold tracking-tight text-white">
+            <a href="/" class="text-xl font-bold tracking-tight text-white hover:text-blue-400 transition">
                 MoreThanBankruptcy<span class="text-blue-500">.com</span>
             </a>
             <div class="hidden md:flex space-x-6 text-sm font-medium">
-                <a href="/rebuild/" class="text-slate-400 hover:text-white transition">Rebuild Hub</a>
-                <span class="text-blue-500">AI Command Center</span>
+                <a href="/guides/" class="text-slate-400 hover:text-white transition">Guides</a>
+                <a href="/tools/" class="text-slate-400 hover:text-white transition">Tools</a>
+                <span class="text-blue-500 border-b border-blue-500 pb-0.5">Command Center</span>
             </div>
         </div>
     </nav>
@@ -31,87 +37,102 @@
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         <div class="text-center max-w-3xl mx-auto mb-16">
-            <span class="inline-block bg-blue-900 text-blue-300 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-6 border border-blue-700">
+            <span class="inline-block bg-blue-900/50 text-blue-300 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-6 border border-blue-700/50">
                 24/7 Support Squad
             </span>
-            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
                 Your Personal <br>
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Board of Directors</span>
             </h1>
             <p class="text-slate-400 text-lg leading-relaxed mb-8">
-                Recovery is too hard to do alone. We have trained these specialized AI agents to act as your Lawyer, Accountant, and Therapist—free of charge.
+                Recovery is too hard to do alone. We have trained these specialized AI agents to act as your Lawyer, Accountant, and Therapist—free of charge, available whenever you need them.
             </p>
             
-            <div class="bg-slate-800 border border-slate-700 rounded-lg p-4 text-left text-sm text-slate-300 mx-auto max-w-2xl">
-                <strong class="text-blue-400 block mb-1">💡 How to use these tools:</strong>
-                These aren't standard chatbots. They are "Pre-Prompted Agents." They won't just chat; they will interview you, run math, and output specific action plans. Treat them like hired professionals.
+            <div class="bg-slate-800/50 border border-slate-700 rounded-lg p-4 text-left text-sm text-slate-300 mx-auto max-w-2xl backdrop-blur-sm">
+                <strong class="text-blue-400 block mb-1 flex items-center">
+                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM17.414 13.586a1 1 0 11-1.414 1.414l-.707-.707a1 1 0 011.414-1.414l.707.707zM12.293 17.707a1 1 0 010-1.414l.707-.707a1 1 0 011.414 1.414l-.707.707a1 1 0 01-1.414 0zM5 12a1 1 0 010-2h1a1 1 0 010 2H5zM5.757 15.657a1 1 0 01-1.414-1.414l.707-.707a1 1 0 111.414 1.414l-.707.707zM12 5a7 7 0 100 14 7 7 0 000-14z"></path></svg>
+                    How to use these agents:
+                </strong>
+                These aren't standard chatbots. They are "Pre-Prompted Agents." They will interview you, run calculations, and output specific action plans. Treat them like hired professionals.
             </div>
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
 
-            <a href="financial-strategist/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-blue-500 transition-all duration-300">
-                <div class="w-12 h-12 bg-blue-900/50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
+            <a href="financial-strategist/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-blue-500 hover:shadow-[0_0_20px_rgba(59,130,246,0.15)] block h-full">
+                <div class="w-12 h-12 bg-blue-900/30 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
                     <svg class="w-6 h-6 text-blue-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-2">The Financial Strategist</h3>
-                <p class="text-slate-400 text-sm mb-4">Your acting CFO. It analyzes your income/debt ratio and builds a custom 6-month recovery roadmap.</p>
-                <span class="text-blue-400 text-xs font-bold uppercase tracking-wide group-hover:text-white">Start Strategy Session →</span>
+                <h3 class="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors">The Financial Strategist</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Your acting CFO. It analyzes your income/debt ratio and builds a custom 6-month recovery roadmap.</p>
+                <div class="flex items-center text-blue-400 text-xs font-bold uppercase tracking-wide group-hover:text-white mt-auto">
+                    Start Strategy Session <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </div>
             </a>
 
-            <a href="credit-audit/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-emerald-500 transition-all duration-300">
-                <div class="w-12 h-12 bg-emerald-900/50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-emerald-600 transition-colors">
+            <a href="credit-audit/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-emerald-500 hover:shadow-[0_0_20px_rgba(16,185,129,0.15)] block h-full">
+                <div class="w-12 h-12 bg-emerald-900/30 rounded-lg flex items-center justify-center mb-4 group-hover:bg-emerald-600 transition-colors">
                     <svg class="w-6 h-6 text-emerald-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-2">Credit Audit Protocol</h3>
-                <p class="text-slate-400 text-sm mb-4">Paste your credit report details (anonymized). This agent hunts for errors, violations, and "low hanging fruit" disputes.</p>
-                <span class="text-emerald-400 text-xs font-bold uppercase tracking-wide group-hover:text-white">Run Audit →</span>
+                <h3 class="text-xl font-bold text-white mb-2 group-hover:text-emerald-400 transition-colors">Credit Audit Protocol</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Paste your credit report details (anonymized). This agent hunts for errors, violations, and "low hanging fruit" disputes.</p>
+                <div class="flex items-center text-emerald-400 text-xs font-bold uppercase tracking-wide group-hover:text-white mt-auto">
+                    Run Audit <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </div>
             </a>
 
-            <a href="bankruptcy-options-test/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-purple-500 transition-all duration-300">
-                <div class="w-12 h-12 bg-purple-900/50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-600 transition-colors">
+            <a href="bankruptcy-options-test/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-purple-500 hover:shadow-[0_0_20px_rgba(168,85,247,0.15)] block h-full">
+                <div class="w-12 h-12 bg-purple-900/30 rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-600 transition-colors">
                     <svg class="w-6 h-6 text-purple-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-2">Bankruptcy Simulator</h3>
-                <p class="text-slate-400 text-sm mb-4">Ch 7 or Ch 13? Input your assets and debts to simulate which chapter you might qualify for (Educational Only).</p>
-                <span class="text-purple-400 text-xs font-bold uppercase tracking-wide group-hover:text-white">Run Simulation →</span>
+                <h3 class="text-xl font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">Bankruptcy Simulator</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Ch 7 or Ch 13? Input your assets and debts to simulate which chapter you might qualify for (Educational Only).</p>
+                <div class="flex items-center text-purple-400 text-xs font-bold uppercase tracking-wide group-hover:text-white mt-auto">
+                    Run Simulation <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </div>
             </a>
 
-            <a href="anxiety-reduction-test/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-sky-500 transition-all duration-300">
-                <div class="w-12 h-12 bg-sky-900/50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-sky-600 transition-colors">
+            <a href="anxiety-reduction-test/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-sky-500 hover:shadow-[0_0_20px_rgba(14,165,233,0.15)] block h-full">
+                <div class="w-12 h-12 bg-sky-900/30 rounded-lg flex items-center justify-center mb-4 group-hover:bg-sky-600 transition-colors">
                     <svg class="w-6 h-6 text-sky-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-2">Anxiety Reduction</h3>
-                <p class="text-slate-400 text-sm mb-4">Having a panic attack about money? This agent uses CBT techniques to de-escalate fear in 5 minutes.</p>
-                <span class="text-sky-400 text-xs font-bold uppercase tracking-wide group-hover:text-white">Start Session →</span>
+                <h3 class="text-xl font-bold text-white mb-2 group-hover:text-sky-400 transition-colors">Anxiety Reduction</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Having a panic attack about money? This agent uses CBT techniques to de-escalate fear in 5 minutes.</p>
+                <div class="flex items-center text-sky-400 text-xs font-bold uppercase tracking-wide group-hover:text-white mt-auto">
+                    Start Session <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </div>
             </a>
 
-            <a href="expense-analysis-test/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-orange-500 transition-all duration-300">
-                <div class="w-12 h-12 bg-orange-900/50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-600 transition-colors">
+            <a href="expense-analysis-test/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-orange-500 hover:shadow-[0_0_20px_rgba(249,115,22,0.15)] block h-full">
+                <div class="w-12 h-12 bg-orange-900/30 rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-600 transition-colors">
                     <svg class="w-6 h-6 text-orange-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-2">Expense Analyzer</h3>
-                <p class="text-slate-400 text-sm mb-4">Find the leaks. This tool audits your spending habits and flags "Vampire Costs" you didn't notice.</p>
-                <span class="text-orange-400 text-xs font-bold uppercase tracking-wide group-hover:text-white">Analyze Cash Flow →</span>
+                <h3 class="text-xl font-bold text-white mb-2 group-hover:text-orange-400 transition-colors">Expense Analyzer</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Find the leaks. This tool audits your spending habits and flags "Vampire Costs" you didn't notice.</p>
+                <div class="flex items-center text-orange-400 text-xs font-bold uppercase tracking-wide group-hover:text-white mt-auto">
+                    Analyze Cash Flow <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </div>
             </a>
 
-            <a href="organize-days/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-yellow-500 transition-all duration-300">
-                <div class="w-12 h-12 bg-yellow-900/50 rounded-lg flex items-center justify-center mb-4 group-hover:bg-yellow-600 transition-colors">
+            <a href="organize-days/" class="tool-card group bg-slate-800 border border-slate-700 rounded-xl p-6 hover:border-yellow-500 hover:shadow-[0_0_20px_rgba(234,179,8,0.15)] block h-full">
+                <div class="w-12 h-12 bg-yellow-900/30 rounded-lg flex items-center justify-center mb-4 group-hover:bg-yellow-600 transition-colors">
                     <svg class="w-6 h-6 text-yellow-400 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-2">Day Organizer</h3>
-                <p class="text-slate-400 text-sm mb-4">Structure creates sanity. Build a high-performance daily schedule that balances work, side hustles, and rest.</p>
-                <span class="text-yellow-400 text-xs font-bold uppercase tracking-wide group-hover:text-white">Plan My Day →</span>
+                <h3 class="text-xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors">Day Organizer</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Structure creates sanity. Build a high-performance daily schedule that balances work, side hustles, and rest.</p>
+                <div class="flex items-center text-yellow-400 text-xs font-bold uppercase tracking-wide group-hover:text-white mt-auto">
+                    Plan My Day <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+                </div>
             </a>
 
         </div>
 
-        <div class="bg-slate-800 rounded-2xl p-8 text-center border border-slate-700">
+        <div class="bg-slate-800 rounded-2xl p-8 text-center border border-slate-700 max-w-4xl mx-auto">
             <h3 class="text-2xl font-bold text-white mb-2">Help Others Find Control</h3>
             <p class="text-slate-400 mb-6 max-w-lg mx-auto">
                 These tools are free forever. If you found them useful, share the Command Center with someone who needs a Board of Directors.
             </p>
-            <button class="bg-white text-slate-900 font-bold py-3 px-8 rounded-full hover:bg-blue-50 transition shadow-lg">
+            <button class="bg-white text-slate-900 font-bold py-3 px-8 rounded-full hover:bg-blue-50 transition shadow-lg hover:shadow-xl">
                 Share Command Center
             </button>
         </div>
