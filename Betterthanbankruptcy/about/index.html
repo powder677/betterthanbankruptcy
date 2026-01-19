@@ -1,189 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Our mission is to provide the tools, stories, and strategies for life after bankruptcy. We are the recovery hub for your financial fresh start.">
    <title>About Us | MoreThanBankruptcy.com</title>
-
+   
    <script src="https://cdn.tailwindcss.com"></script>
-
-   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
-
+   
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+   
    <style>
-      body {
-         font-family: 'Inter', sans-serif;
-      }
-
-      .story-text {
+      body { font-family: 'Inter', sans-serif; }
+      /* Matches index.html gradient */
+      .hero-bg { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
+      .prose-text {
          font-family: 'Merriweather', serif;
+         font-size: 1.125rem;
          line-height: 1.8;
          color: #334155;
-         font-size: 1.125rem;
       }
-
-      .story-text p {
+      .prose-text h2 {
+         font-family: 'Inter', sans-serif;
+         margin-top: 3rem;
          margin-bottom: 1.5rem;
+         color: #0f172a;
+         font-weight: 700;
+         font-size: 1.75rem;
+      }
+      .prose-text h3 {
+         font-family: 'Inter', sans-serif;
+         margin-top: 2rem;
+         margin-bottom: 1rem;
+         color: #1e293b;
+         font-weight: 600;
+         font-size: 1.35rem;
+      }
+      .highlight-box {
+         background-color: #f8fafc;
+         border-left: 4px solid #3b82f6;
+         padding: 1.5rem;
+         margin: 2rem 0;
+         font-style: italic;
+         color: #475569;
       }
    </style>
 </head>
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
 
-<body class="bg-slate-50 text-slate-800 antialiased">
-
-   <nav class="bg-white shadow-sm sticky top-0 z-50 border-b border-slate-100">
+   <nav class="bg-white shadow-sm sticky top-0 z-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
          <div class="flex justify-between h-16 items-center">
-            <a href="index.html" class="flex-shrink-0 flex items-center group">
-               <span class="font-bold text-xl text-slate-900 tracking-tight group-hover:text-blue-600 transition">MoreThanBankruptcy<span class="text-blue-600">.com</span></span>
-            </a>
+            <div class="flex-shrink-0 flex items-center">
+               <a href="/" class="font-bold text-xl text-slate-900 tracking-tight">
+                  MoreThanBankruptcy<span class="text-blue-600">.com</span>
+               </a>
+            </div>
             <div class="hidden md:flex space-x-8">
-               <a href="article.html" class="text-slate-600 hover:text-blue-600 font-medium transition">Reviews</a>
-               <a href="guide-income-streams.html" class="text-slate-600 hover:text-blue-600 font-medium transition">Guides</a>
-               <a href="resources.html" class="text-slate-600 hover:text-blue-600 font-medium transition">Tools</a>
+               <a href="/resources/" class="text-slate-600 hover:text-blue-600 font-medium transition">Tools & Calculators</a>
+               <a href="/rebuild/" class="text-slate-600 hover:text-blue-600 font-medium transition">Roadmaps</a>
+               <a href="/stories/" class="text-slate-600 hover:text-blue-600 font-medium transition">Stories</a>
             </div>
          </div>
       </div>
    </nav>
 
-   <header class="bg-white pt-20 pb-16 px-4 border-b border-slate-100">
+   <header class="hero-bg text-white py-20 px-4 mb-8">
       <div class="max-w-3xl mx-auto text-center">
-         <h1 class="text-sm font-bold tracking-widest text-slate-500 uppercase mb-4">About MoreThanBankruptcy.com</h1>
-         <p class="text-3xl sm:text-5xl font-bold text-slate-900 leading-tight mb-6">
-            Your Net Worth Is Not <br class="hidden sm:block" /> <span class="text-blue-600">Your Self Worth.</span>
-         </p>
+         <span class="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-4">Our Manifesto</span>
+         <h1 class="text-3xl sm:text-5xl font-bold tracking-tight mb-6 leading-tight">We are not Financial Advisors. <br>We are Crash Test Dummies.</h1>
+         <p class="text-blue-100 text-lg max-w-2xl mx-auto leading-relaxed">Most financial advice assumes you have money. We are here for the people starting from zero.</p>
       </div>
    </header>
 
-   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+   <main class="flex-grow max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 w-full mb-20">
+      
+      <article class="prose-text">
+         
+         <section>
+            <p>If you search for "how to fix my credit" online, you usually find two types of people. The first is a buttoned-up financial advisor telling you to "stop buying lattes" and "max out your 401k." The second is a shady "guru" on TikTok promising to delete your debts for $99 if you buy their secret PDF.</p>
+            <p>Neither of them helps when you are staring at a bankruptcy filing.</p>
+            
+            <h3>The Origin Story</h3>
+            <p>This site exists because standard financial advice fails when you have $0. You cannot "save your way" out of a Chapter 7. You cannot "invest" when your net worth is negative. The tools required for <em>survival</em> are different from the tools required for <em>growth</em>.</p>
+            <p>We built this platform not because we are experts with degrees on our walls, but because we are survivors with scars on our credit reports. We have navigated the humiliation of the trustee meeting. We have felt the panic of the "insufficient funds" notification. We are not here to judge you; we are here to hand you a map.</p>
+         </section>
 
-      <div class="story-text mb-16">
-         <p class="first-letter:text-5xl first-letter:font-bold first-letter:text-slate-900 first-letter:mr-3 first-letter:float-left">
-            If you are reading this, you have likely just walked through fire. Maybe you filed for Chapter 7. Maybe you settled massive debt. Maybe you simply hit "reset" on your financial life.
-         </p>
-         <p>
-            Whatever brought you here, you probably noticed something frustrating about the financial advice industry: Everyone has advice on how to fall—how to file papers, how to attend court hearings, how to liquidate assets.
-         </p>
-         <p class="font-bold text-slate-900">
-            Almost no one tells you how to get back up.
-         </p>
-         <p>
-            That is why we built MoreThanBankruptcy.com.
-         </p>
+         <section>
+            <h2>The Philosophy</h2>
+            <div class="highlight-box">
+               "The System is not evil. It is just a Game. You just need the Rulebook."
+            </div>
+            <p>The financial system—banks, credit bureaus, background checks—operates on a strict set of algorithms and laws. It feels personal, but it isn't. It is mechanical.</p>
+            <p>When you understand the mechanics of the <strong>Fair Credit Reporting Act (FCRA)</strong>, you stop pleading with creditors and start demanding accuracy. When you understand the <strong>Fair Debt Collection Practices Act (FDCPA)</strong>, you stop answering the phone with fear and start answering with confidence. When you understand the logic of the <strong>Gig Economy</strong>, you stop begging for a job and start generating your own liquidity.</p>
+         </section>
 
-         <h2 class="font-sans text-2xl font-bold text-slate-900 mt-12 mb-6">The "Day After" Problem</h2>
-         <p>
-            For millions of people, the day after their debt is discharged is the quietest, scariest day of their lives. The phone stops ringing, the creditors stop calling, and suddenly... you are alone. You have a credit score that feels permanently broken. You feel defined by a single legal status: "Bankrupt."
-         </p>
-         <p>
-            We believe that is wrong. We believe bankruptcy is a legal tool, not a character flaw. It is a line in the sand—a harsh ending, yes, but also a pristine beginning.
-         </p>
-      </div>
-
-      <div class="bg-slate-900 text-white rounded-2xl p-8 sm:p-12 mb-16 shadow-xl text-center">
-         <h2 class="text-2xl font-bold mb-4">Our Mission</h2>
-         <p class="text-lg text-slate-300 leading-relaxed max-w-2xl mx-auto">
-            To shorten the time between your "Rock Bottom" and your "Bounce Back." We are a team of researchers, writers, and advocates providing the toolkit for the Day After.
-         </p>
-      </div>
-
-      <div class="mb-16">
-         <h2 class="text-2xl font-bold text-slate-900 mb-8 text-center">What We Believe</h2>
-         <div class="grid md:grid-cols-3 gap-8">
-            <div class="text-center">
-               <div class="w-12 h-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                  </svg>
+         <section>
+            <h2>The Methodology: The 3-Step Engine</h2>
+            <p>We do not believe in magic bullets. We believe in engineering. Our recovery model is built on three distinct phases:</p>
+            
+            <div class="not-prose space-y-6 mt-8 font-sans">
+               <div class="flex gap-4 items-start">
+                  <div class="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 text-red-600 flex items-center justify-center font-bold text-xl">1</div>
+                  <div>
+                     <h4 class="font-bold text-slate-900 text-lg">Stabilize (Stop the Bleeding)</h4>
+                     <p class="text-slate-600 leading-relaxed">Before you worry about your credit score, you must secure your Four Walls (Food, Shelter, Utilities, Transportation). We use tools like the <a href="/resources/templates/crisis-budget/" class="text-blue-600 hover:underline">Crisis Budget</a> to prioritize survival over solvency.</p>
+                  </div>
                </div>
-               <h3 class="font-bold text-slate-900 mb-2">Empathy Over Judgment</h3>
-               <p class="text-sm text-slate-600">We do not care how you got into debt. We care about how you get out of it. No shame, only strategy.</p>
-            </div>
-            <div class="text-center">
-               <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
-                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
+
+               <div class="flex gap-4 items-start">
+                  <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-xl">2</div>
+                  <div>
+                     <h4 class="font-bold text-slate-900 text-lg">Optimize (Fix the Data)</h4>
+                     <p class="text-slate-600 leading-relaxed">Once you are stable, we attack the data. We use the law to remove inaccuracies and rebuild your profile. This isn't "credit repair"; it's data hygiene using <a href="/resources/templates/dispute-letters/" class="text-blue-600 hover:underline">Validation Letters</a> and dispute strategies.</p>
+                  </div>
                </div>
-               <h3 class="font-bold text-slate-900 mb-2">Practicality</h3>
-               <p class="text-sm text-slate-600">You don't need positive vibes. You need to know which secured card has the lowest fees. We focus on data.</p>
-            </div>
-            <div class="text-center">
-               <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-                  </svg>
+
+               <div class="flex gap-4 items-start">
+                  <div class="flex-shrink-0 w-12 h-12 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-xl">3</div>
+                  <div>
+                     <h4 class="font-bold text-slate-900 text-lg">Monetize (Increase Flow)</h4>
+                     <p class="text-slate-600 leading-relaxed">You cannot budget your way out of a poverty-level income. We test and review real-world income streams—from <a href="/rebuild/stories/doordash-experiment.html" class="text-blue-600 hover:underline">DoorDash</a> to <a href="/rebuild/freelancing.html" class="text-blue-600 hover:underline">Freelancing</a>—to help you find the liquidity you need to rebuild.</p>
+                  </div>
                </div>
-               <h3 class="font-bold text-slate-900 mb-2">Radical Transparency</h3>
-               <p class="text-sm text-slate-600">The financial industry is full of sharks. We strive to be the lighthouse. We are open about how we make money.</p>
             </div>
-         </div>
-      </div>
+         </section>
 
-      <div class="bg-slate-100 border border-slate-200 rounded-xl p-8 mb-16">
-         <h3 class="text-xl font-bold text-slate-900 mb-6 flex items-center">
-            <svg class="w-6 h-6 mr-2 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-            </svg>
-            A Note on Integrity & Standards
-         </h3>
-         <div class="grid md:grid-cols-2 gap-8 text-sm text-slate-700">
-            <div>
-               <h4 class="font-bold text-slate-900 mb-2">How We Make Money</h4>
-               <p class="leading-relaxed">MoreThanBankruptcy.com is reader-supported. When you click links to buy products or services we recommend, we may earn an affiliate commission.</p>
-            </div>
-            <div>
-               <h4 class="font-bold text-slate-900 mb-2">How We Choose Products</h4>
-               <p class="leading-relaxed">We recommend products that pass our "Recovery Test": Would we recommend this to a friend starting over? If a product has predatory fees or confusing terms, we don't list it. Period.</p>
-            </div>
-         </div>
-      </div>
+         <section class="mt-12 pt-8 border-t border-slate-200">
+            <h3>A Final Note on "Gurus"</h3>
+            <p>We will never ask you for your credit card number to "fix" your life. We sell information, not salvation. The work is hard, and you are the only one who can do it. But you don't have to do it alone.</p>
+         </section>
 
-      <div class="mb-16">
-         <h2 class="text-2xl font-bold text-slate-900 mb-8">What You Will Find Here</h2>
-         <div class="space-y-4">
-            <a href="resources.html" class="block group bg-white border border-slate-200 p-6 rounded-xl hover:border-blue-300 hover:shadow-md transition">
-               <h3 class="font-bold text-slate-900 group-hover:text-blue-600">The Tools →</h3>
-               <p class="text-slate-600 mt-2">Curated directories of budgeting apps, credit monitoring services, and banking products friendly to "bruised" credit.</p>
-            </a>
-            <a href="story-mark-rivera.html" class="block group bg-white border border-slate-200 p-6 rounded-xl hover:border-blue-300 hover:shadow-md transition">
-               <h3 class="font-bold text-slate-900 group-hover:text-blue-600">The Stories →</h3>
-               <p class="text-slate-600 mt-2">Real interviews with people who have walked this path—entrepreneurs, parents, and professionals who rebuilt their lives.</p>
-            </a>
-            <a href="guide-income-streams.html" class="block group bg-white border border-slate-200 p-6 rounded-xl hover:border-blue-300 hover:shadow-md transition">
-               <h3 class="font-bold text-slate-900 group-hover:text-blue-600">The Guides →</h3>
-               <p class="text-slate-600 mt-2">Step-by-step roadmaps for everything from "Starting a Business Post-Bankruptcy" to "Building Income Streams."</p>
-            </a>
-         </div>
-      </div>
+      </article>
 
-      <div class="text-center py-12 border-t border-slate-200">
-         <h2 class="text-3xl font-bold text-slate-900 mb-6">Ready to Write the Next Chapter?</h2>
-         <p class="text-lg text-slate-600 mb-8 max-w-xl mx-auto">
-            Your past is written in ink, but your future is written in pencil. You have a clean slate. Let’s start filling it in.
-         </p>
-         <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="resources.html" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition">Explore Tools</a>
-            <a href="#" class="bg-slate-200 hover:bg-slate-300 text-slate-900 font-bold py-3 px-8 rounded-lg transition">Join Newsletter</a>
-         </div>
-      </div>
+   </main>
 
-   </div>
-<footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800">
+   <section class="bg-blue-900 py-16 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+         <h2 class="text-2xl font-bold text-white mb-4">The "Fresh Start" Weekly Brief</h2>
+         <p class="text-blue-100 mb-8 max-w-xl mx-auto">Insights on rebuilding credit and spotting opportunities.</p>
+         <form class="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
+            <input type="email" placeholder="Enter your email" class="w-full px-5 py-3 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+            <button type="submit" class="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition shadow-lg">
+               Join
+            </button>
+         </form>
+      </div>
+   </section>
+
+   <footer class="bg-slate-900 text-slate-400 py-12 border-t border-slate-800 mt-auto">
       <div class="max-w-7xl mx-auto px-4 text-center">
          <span class="text-white font-bold text-lg">MoreThanBankruptcy.com</span>
          <div class="flex justify-center space-x-6 mt-4 text-xs">
-            <a href="../legal/privacy-policy.html" class="hover:text-white transition">Privacy Policy</a>
-            <a href="../legal/terms-of-service.html" class="hover:text-white transition">Terms of Service</a>
-            <a href="../legal/disclaimer.html" class="hover:text-white transition">Disclaimer</a>
+            <a href="/legal/privacy-policy.html" class="hover:text-white transition">Privacy Policy</a>
+            <a href="/legal/terms-of-service.html" class="hover:text-white transition">Terms of Service</a>
          </div>
          <p class="text-xs mt-4 text-slate-500">
             © 2026 MoreThanBankruptcy.com. All rights reserved. <br>
-            <strong>Disclaimer:</strong> This content is for educational purposes only. Not financial or legal advice.
+            Not financial advice.
          </p>
       </div>
    </footer>
-
 </body>
 </html>
