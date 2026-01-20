@@ -1,9 +1,18 @@
 # MoreThanBankruptcy.com Robots.txt
 User-agent: *
+
+# Allow crawling of the entire site by default
 Allow: /
 
-# Prevent bots from crawling internal legal templates if needed
-Disallow: /legal/
+# Specifically Allow core silos to ensure no accidental inheritance blocking
+Allow: /rebuild/
+Allow: /resources/
+Allow: /guides/
 
-# Link to your sitemap
-Sitemap: https://morethanbankruptcy.com/sitemap.xml
+# Prevent bots from crawling sensitive internal legal templates or admin files
+Disallow: /legal/
+Disallow: /private/
+Disallow: /admin/
+
+# Link to your sitemap for faster indexing
+Sitemap: https://www.morethanbankruptcy.com/sitemap.xml
