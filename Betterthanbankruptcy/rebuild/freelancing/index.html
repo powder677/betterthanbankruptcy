@@ -65,7 +65,7 @@
    </style>
 </head>
 
-<body class="bg-slate-50 text-slate-800 antialiased">
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
 
    <nav class="bg-white shadow-sm sticky top-0 z-50 border-b border-slate-100">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -106,10 +106,21 @@
       </div>
    </div>
 
-   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-grow">
       <div class="flex flex-col lg:flex-row gap-12">
 
          <main class="lg:w-3/4">
+
+            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 mb-12 rounded-r-lg shadow-sm">
+               <h2 class="text-blue-900 font-bold text-lg mb-2 flex items-center">
+                  <span class="mr-2">📋</span> Roadmap Overview: Income Diversification
+               </h2>
+               <ul class="space-y-2 text-blue-800 text-sm">
+                  <li class="flex items-start"><span class="mr-2">•</span> <strong>Audit Skills:</strong> Identify "wholesale" workplace tasks that can be sold at "retail" rates.</li>
+                  <li class="flex items-start"><span class="mr-2">•</span> <strong>Market Entry:</strong> Leverage platforms like Upwork for professional services or TaskRabbit for immediate labor.</li>
+                  <li class="flex items-start"><span class="mr-2">•</span> <strong>Scale & Protect:</strong> Transition to digital products for passive income and form an LLC for asset protection.</li>
+               </ul>
+            </div>
 
             <div class="prose-text">
 
@@ -186,7 +197,7 @@
                         <h4 class="font-bold text-slate-900">Upwork</h4>
                      </div>
                      <p class="text-sm text-slate-600 mb-4">The largest marketplace for professional freelancers. Best for writing, admin, and tech skills.</p>
-                     <a href="#" class="text-blue-600 font-bold text-sm hover:underline">Create Profile →</a>
+                     <a href="https://www.upwork.com/" target="_blank" class="text-blue-600 font-bold text-sm hover:underline">Create Profile →</a>
                   </div>
                   <div class="border border-slate-200 rounded-xl p-6 hover:shadow-md transition bg-white">
                      <div class="flex items-center mb-4">
@@ -194,7 +205,7 @@
                         <h4 class="font-bold text-slate-900">Novo</h4>
                      </div>
                      <p class="text-sm text-slate-600 mb-4">Free business checking account designed for freelancers. No minimum balance requirements.</p>
-                     <a href="#" class="text-blue-600 font-bold text-sm hover:underline">Open Account →</a>
+                     <a href="/reviews/novo/" class="text-blue-600 font-bold text-sm hover:underline">Read Review →</a>
                   </div>
                   <div class="border border-slate-200 rounded-xl p-6 hover:shadow-md transition bg-white">
                      <div class="flex items-center mb-4">
@@ -202,7 +213,7 @@
                         <h4 class="font-bold text-slate-900">ZenBusiness</h4>
                      </div>
                      <p class="text-sm text-slate-600 mb-4">The easiest way to form an LLC online. Protect your personal assets from business liability.</p>
-                     <a href="#" class="text-blue-600 font-bold text-sm hover:underline">Start LLC →</a>
+                     <a href="/reviews/zenbusiness/" class="text-blue-600 font-bold text-sm hover:underline">Start LLC →</a>
                   </div>
                   <div class="border border-slate-200 rounded-xl p-6 hover:shadow-md transition bg-white">
                      <div class="flex items-center mb-4">
@@ -210,7 +221,7 @@
                         <h4 class="font-bold text-slate-900">Udemy</h4>
                      </div>
                      <p class="text-sm text-slate-600 mb-4">Low-cost courses to learn new skills like Excel, Copywriting, or Photoshop.</p>
-                     <a href="#" class="text-blue-600 font-bold text-sm hover:underline">Browse Courses →</a>
+                     <a href="/tools/learning-platforms/" class="text-blue-600 font-bold text-sm hover:underline">Browse Courses →</a>
                   </div>
                </div>
 
@@ -248,12 +259,21 @@
                      </li>
                      <li class="flex items-center">
                         <input type="checkbox" class="h-5 w-5 text-blue-600 rounded" disabled>
-                        <span class="ml-3 text-slate-700"><strong>Day 7:</strong> Open a separate bank account (Novo/Bluevine)</span>
+                        <span class="ml-3 text-slate-700"><strong>Day 7:</strong> Open a separate bank account (Novo)</span>
                      </li>
                   </ul>
                </div>
 
             </div>
+
+            <div class="mt-20 p-8 bg-white border border-slate-200 rounded-2xl shadow-sm text-center">
+               <h3 class="text-xl font-bold text-slate-900 mb-2">Logical Next Step</h3>
+               <p class="text-slate-600 mb-6">Before you start earning, calculate exactly how much you'll need to set aside for taxes and business costs.</p>
+               <a href="/resources/calculators/gig-wage/" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition shadow-md">
+                  Open the Gig Wage Calculator →
+               </a>
+            </div>
+
          </main>
 
          <aside class="lg:w-1/4 hidden lg:block">
@@ -313,6 +333,13 @@
                 <ul class="space-y-2">
                     <li><a href="/legal/privacy-policy/" class="hover:text-white">Privacy</a></li>
                     <li><a href="/legal/disclaimer/" class="hover:text-white">Disclaimer</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-white font-bold mb-4 uppercase tracking-widest text-xs">Tools</h5>
+                <ul class="space-y-2">
+                    <li><a href="/tools/business-formation/" class="hover:text-white">Formations</a></li>
+                    <li><a href="/tools/side-hustle-platforms/" class="hover:text-white">Gigs</a></li>
                 </ul>
             </div>
         </div>
