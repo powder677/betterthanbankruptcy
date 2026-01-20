@@ -1,0 +1,9 @@
+# MoreThanBankruptcy.com Robots.txt
+User-agent: *
+Allow: /
+
+# Prevent bots from crawling internal legal templates if needed
+Disallow: /legal/
+
+# Link to your sitemap
+Sitemap: https://morethanbankruptcy.com/sitemap.xml
