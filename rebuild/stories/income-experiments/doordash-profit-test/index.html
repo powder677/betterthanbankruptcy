@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>DoorDash Profitability Test: Real Earnings vs. Costs</title>
+   <meta name="description" content="Is DoorDash profitable? We tracked a 7-day driving test. See the breakdown of gross earnings vs. gas, taxes, and depreciation.">
+   <meta property="og:title" content="DoorDash Profitability Test: Real Earnings vs. Costs">
+   <meta property="og:description" content="Is DoorDash profitable? We tracked a 7-day driving test. See the breakdown of gross earnings vs. gas, taxes, and depreciation.">
+   <meta property="og:type" content="article">
+   <meta property="og:url" content="https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/doordash-profit-test/index.html">
+   <meta property="og:image" content="https://www.morethanbankruptcy.com/assets/og-doordash-test.jpg">
+
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="DoorDash Profitability Test: Real Earnings vs. Costs">
+   <meta name="twitter:description" content="Is DoorDash profitable? We tracked a 7-day driving test. See the breakdown of gross earnings vs. gas, taxes, and depreciation.">
+   <meta name="twitter:image" content="https://www.morethanbankruptcy.com/assets/og-doordash-test.jpg">
+
+   <script src="https://cdn.tailwindcss.com"></script>
+
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+
+   <style>
+      body {
+         font-family: 'Inter', sans-serif;
+      }
+
+      /* Matches index.html gradient */
+      .hero-bg {
+         background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+      }
+
+      .prose-text {
+         font-family: 'Merriweather', serif;
+         font-size: 1.125rem;
+         line-height: 1.8;
+         color: #334155;
+      }
+
+      .prose-text h2 {
+         font-family: 'Inter', sans-serif;
+         margin-top: 3rem;
+         margin-bottom: 1.5rem;
+         color: #0f172a;
+         font-weight: 700;
+         font-size: 1.75rem;
+      }
+
+      .prose-text h3 {
+         font-family: 'Inter', sans-serif;
+         margin-top: 2rem;
+         margin-bottom: 1rem;
+         color: #1e293b;
+         font-weight: 600;
+         font-size: 1.35rem;
+      }
+
+      .math-row {
+         display: flex;
+         justify-content: space-between;
+         padding: 0.75rem 0;
+         border-bottom: 1px solid #e2e8f0;
+      }
+
+      .math-row:last-child {
+         border-bottom: none;
+      }
+   </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+   <nav class="bg-white shadow-sm sticky top-0 z-50 border-b border-slate-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+         <div class="flex justify-between h-16 items-center">
+            <a href="/index.html" class="flex-shrink-0 flex items-center group">
+               <span class="font-bold text-xl text-slate-900 tracking-tight group-hover:text-blue-600 transition">MoreThanBankruptcy<span class="text-blue-600">.com</span></span>
+            </a>
+            <div class="hidden md:flex space-x-8">
+               <a href="/resources/calculators/index.html" class="text-slate-600 hover:text-blue-600 font-medium transition">Calculators</a>
+               <a href="/guides/index.html" class="text-slate-600 hover:text-blue-600 font-medium transition">Curriculum</a>
+               <a href="/rebuild/ai-assist/index.html" class="text-blue-600 font-bold transition">AI Agents</a>
+               <a href="/rebuild/stories/index.html" class="text-slate-600 hover:text-blue-600 font-medium transition">Stories</a>
+            </div>
+         </div>
+      </div>
+   </nav>
+
+   <header class="hero-bg text-white py-12 px-4 mb-8">
+      <div class="max-w-3xl mx-auto text-center">
+         <span class="inline-block bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide mb-4">Lived Experience Experiment</span>
+         <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-4">Borrowing From Your Car: The Math Behind DoorDash</h1>
+         <p class="text-blue-100 text-lg max-w-2xl mx-auto leading-relaxed">Is driving for delivery apps actually profitable, or are you just selling your car's lifespan for quick cash? A 7-day breakdown.</p>
+      </div>
+   </header>
+
+   <main class="flex-grow max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 w-full mb-20">
+
+      <div class="mb-8 text-sm text-slate-500">
+         <a href="/rebuild/stories/income-experiments/index.html" class="hover:text-blue-600">← Back to Experiments Lab</a>
+      </div>
+
+      <div class="bg-blue-50 border-l-4 border-blue-500 p-6 mb-12 rounded-r-lg shadow-sm">
+         <h2 class="text-blue-900 font-bold text-lg mb-2 flex items-center">
+            <span class="mr-2">📋</span> Roadmap Overview: The Gig Reality Check
+         </h2>
+         <ul class="space-y-2 text-blue-800 text-sm">
+            <li class="flex items-start"><span class="mr-2">•</span> <strong>The Math:</strong> Gross app earnings are deceptive; real net profit must account for fuel, 15% self-employment tax, and invisible wear-and-tear costs.</li>
+            <li class="flex items-start"><span class="mr-2">•</span> <strong>The Strategy:</strong> Implement a "$1 Per Mile Rule" to ensure delivery distance doesn't exceed the value of the order.</li>
+            <li class="flex items-start"><span class="mr-2">•</span> <strong>The Verdict:</strong> Gig work functions as an
+               <a href="/resources/templates/crisis-budget/index.html" class="font-bold hover:underline">emergency liquidity tool</a> (effectively a loan against car equity) rather than a sustainable long-term career.
+            </li>
+         </ul>
+      </div>
+
+      <article class="prose-text">
+
+         <section>
+            <p>The question was simple: If I need
+               <a href="/rebuild/side-income/index.html" class="font-bold text-blue-600 hover:underline">immediate liquidity</a>, does DoorDash actually work? Or is the cost of fuel and depreciation secretly eating the profit?
+            </p>
+            <p>To find out, I committed to a strict schedule: 7 days straight, driving only the "Dinner Rush" block (5:00 PM to 9:00 PM). I tracked every mile, every gallon of gas, and every minute spent waiting in restaurant drive-thrus.</p>
+         </section>
+
+         <section class="not-prose my-12">
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+               <h3 class="text-xl font-bold text-slate-900 mb-6 font-sans">The 7-Day Ledger</h3>
+
+               <div class="font-mono text-sm sm:text-base">
+                  <div class="math-row text-green-700 font-bold">
+                     <span>Gross Earnings (App Payout)</span>
+                     <span>$450.00</span>
+                  </div>
+                  <div class="math-row text-red-600">
+                     <span>Gas Cost</span>
+                     <span>- $80.00</span>
+                  </div>
+                  <div class="math-row text-red-600">
+                     <span>
+                        <a href="/resources/calculators/side-hustle-tax/index.html" class="underline hover:text-red-800">Est. Taxes (15%)</a>
+                     </span>
+                     <span>- $67.50</span>
+                  </div>
+                  <div class="math-row text-red-600">
+                     <span>Invisible Cost (Wear @ $0.10/mi)</span>
+                     <span>- $40.00</span>
+                  </div>
+                  <div class="math-row bg-slate-50 p-4 mt-2 rounded-lg border border-slate-200">
+                     <span class="font-bold text-slate-900">Real Net Profit</span>
+                     <span class="font-bold text-blue-600">$262.50</span>
+                  </div>
+               </div>
+
+               <p class="text-xs text-slate-400 mt-4 text-center italic">
+                  *Wear & Tear calculation estimates tires, oil, and depreciation based on 400 miles driven.
+               </p>
+            </div>
+         </section>
+
+         <section>
+            <h2>The Narrative Arc</h2>
+
+            <h3>The Rush</h3>
+            <p>The app is designed brilliantly. It gamifies labor. When a $12 order pops up, the brain releases a hit of dopamine. "Just one more dash!" becomes a mantra. Seeing the "Current Session" balance tick up in real-time ($20... $45... $60) provides a sense of immediate security that a bi-weekly paycheck lacks.</p>
+
+            <h3>The Trap</h3>
+            <p>The danger lies in the timing of the expenses. The income is immediate (especially with "Fast Pay"), but the expenses are delayed. You get the cash today, but you pay for the tires in six months. You pay for the oil change in 3,000 miles. You pay the taxes next April.</p>
+            <p>It feels like income, but mathematically, a portion of it is simply a loan you are taking out against the value of your vehicle. You are liquidating your car's lifespan one mile at a time.</p>
+
+            <h3>The Strategy</h3>
+            <p>To make the math work, I had to adopt a mercenary mindset. I stopped accepting every order. I implemented the <strong>$1 Per Mile Rule</strong>: If an order paid $6 but required driving 8 miles, I declined it. I also refused to idle the engine while waiting, cutting fuel consumption during the frequent downtime.</p>
+         </section>
+
+         <section class="my-12">
+            <h2>The Verdict</h2>
+            <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-500 not-prose">
+               <p class="text-lg text-blue-900 font-sans leading-relaxed">
+                  <strong>Gig Driving is a Payday Loan against your car.</strong>
+               </p>
+               <p class="text-blue-800 font-sans mt-2">
+                  It is an effective tool for emergency cash when you need groceries <em>tonight</em>. However, treating it like a long-term career is dangerous because the "Invisible Costs" will eventually catch up in the form of a major repair bill that wipes out weeks of profit.
+               </p>
+            </div>
+         </section>
+
+         <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition mt-12 not-prose">
+            <h3 class="text-xl font-bold text-slate-900 mb-3">Keep Your Ledger Clean</h3>
+            <p class="text-lg text-slate-600 leading-relaxed mb-4">
+               If you drive for cash, you must separate your "Gas Money" from your "Grocery Money."
+            </p>
+            <a href="/tools/budgeting-apps/index.html" class="inline-flex items-center justify-center w-full sm:w-auto bg-slate-100 hover:bg-slate-200 text-slate-900 font-bold py-3 px-6 rounded-lg transition border border-slate-300">
+               View Budgeting Tools
+            </a>
+         </div>
+
+      </article>
+
+      <div class="mt-20 p-8 bg-white border border-slate-200 rounded-2xl shadow-sm text-center">
+         <h3 class="text-xl font-bold text-slate-900 mb-2">Logical Next Step</h3>
+         <p class="text-slate-600 mb-6">Before you start your next dash, use our calculator to determine exactly what your hourly take-home pay will be after all expenses.</p>
+         <a href="/resources/calculators/gig-wage/index.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition shadow-md">
+            Use the Gig Wage Calculator →
+         </a>
+      </div>
+
+   </main>
+
+   <section class="bg-blue-900 py-16 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+         <h2 class="text-2xl font-bold text-white mb-4">The "Fresh Start" Weekly Brief</h2>
+         <p class="text-blue-100 mb-8 max-w-xl mx-auto">Insights on rebuilding credit and spotting opportunities.</p>
+         <form class="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
+            <input type="email" placeholder="Enter your email" class="w-full px-5 py-3 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+            <button type="submit" class="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition shadow-lg">
+               Join
+            </button>
+         </form>
+      </div>
+   </section>
+
+   <footer class="bg-slate-900 text-slate-400 py-16 border-t border-slate-800">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+         <span class="text-white font-bold text-2xl tracking-tight block mb-8">MoreThanBankruptcy<span class="text-blue-500">.com</span></span>
+         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12 text-sm text-left max-w-2xl mx-auto">
+            <div>
+               <h5 class="text-white font-bold mb-4 uppercase tracking-widest text-xs">Curriculum</h5>
+               <ul class="space-y-2">
+                  <li><a href="/guides/budgeting-101/index.html" class="hover:text-white">Budgeting</a></li>
+                  <li><a href="/guides/credit-fundamentals/index.html" class="hover:text-white">Credit</a></li>
+                  <li><a href="/guides/money-mindset/index.html" class="hover:text-white">Mindset</a></li>
+               </ul>
+            </div>
+            <div>
+               <h5 class="text-white font-bold mb-4 uppercase tracking-widest text-xs">Resources</h5>
+               <ul class="space-y-2">
+                  <li><a href="/resources/calculators/index.html" class="hover:text-white">Calculators</a></li>
+                  <li><a href="/resources/templates/index.html" class="hover:text-white">Templates</a></li>
+                  <li><a href="/rebuild/ai-assist/index.html" class="hover:text-white">AI Agents</a></li>
+               </ul>
+            </div>
+            <div>
+               <h5 class="text-white font-bold mb-4 uppercase tracking-widest text-xs">Legal</h5>
+               <ul class="space-y-2">
+                  <li><a href="/legal/privacy-policy.html" class="hover:text-white">Privacy</a></li>
+                  <li><a href="/legal/disclaimer.html" class="hover:text-white">Disclaimer</a></li>
+               </ul>
+            </div>
+            <div>
+               <h5 class="text-white font-bold mb-4 uppercase tracking-widest text-xs">Stories</h5>
+               <ul class="space-y-2">
+                  <li><a href="/rebuild/stories/income-experiments/index.html" class="hover:text-white">Income Tests</a></li>
+                  <li><a href="/rebuild/stories/success-interviews/index.html" class="hover:text-white">Success Stories</a></li>
+               </ul>
+            </div>
+         </div>
+         <p class="text-xs text-slate-600 leading-relaxed">
+            © 2026 MoreThanBankruptcy.com. All rights reserved. <br>
+            <strong>Disclaimer:</strong> Educational and research purposes only.
+         </p>
+      </div>
+   </footer>
+</body>
+
+</html>
