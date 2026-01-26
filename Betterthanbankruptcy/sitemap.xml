@@ -1,310 +1,321 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.morethanbankruptcy.com/</loc>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/about/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.morethanbankruptcy.com/legal/disclaimer/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/legal/privacy-policy/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/legal/terms-of-service/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
 
-<url>
-<loc>https://www.morethanbankruptcy.com/</loc>
-<lastmod>2026-01-20T06:13:14+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/calculators/</loc>
-<lastmod>2026-01-20T06:13:14+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/</loc>
-<lastmod>2026-01-20T06:13:15+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/</loc>
-<lastmod>2026-01-20T06:13:15+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/about/</loc>
-<lastmod>2026-01-20T06:13:15+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/budgeting-101/</loc>
-<lastmod>2026-01-20T06:13:15+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/credit-fundamentals/</loc>
-<lastmod>2026-01-20T06:13:15+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/money-mindset/</loc>
-<lastmod>2026-01-20T06:13:16+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/templates/</loc>
-<lastmod>2026-01-20T06:13:16+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/</loc>
-<lastmod>2026-01-20T06:13:16+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/calculators/gig-wage/</loc>
-<lastmod>2026-01-20T06:13:16+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/calculators/side-hustle-tax/</loc>
-<lastmod>2026-01-20T06:13:16+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/templates/crisis-budget/</loc>
-<lastmod>2026-01-20T06:13:16+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/freelancing/</loc>
-<lastmod>2026-01-20T06:13:16+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/side-income/</loc>
-<lastmod>2026-01-20T06:13:17+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/business-comebacks/</loc>
-<lastmod>2026-01-20T06:13:17+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/career-pivots/</loc>
-<lastmod>2026-01-20T06:13:17+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/</loc>
-<lastmod>2026-01-20T06:13:17+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/success-interviews/</loc>
-<lastmod>2026-01-20T06:13:17+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/templates/dispute-letters/</loc>
-<lastmod>2026-01-20T06:13:17+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/budgeting-101/cash-stuffing-binder/</loc>
-<lastmod>2026-01-20T06:13:18+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/budgeting-101/costco-for-singles/</loc>
-<lastmod>2026-01-20T06:13:18+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/budgeting-101/stop-cutting-lattes/</loc>
-<lastmod>2026-01-20T06:13:18+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/credit-fundamentals/15-3-payment-rule/</loc>
-<lastmod>2026-01-20T06:13:18+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/credit-fundamentals/authorized-user-hack/</loc>
-<lastmod>2026-01-20T06:13:18+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/credit-fundamentals/secured-card-strategy/</loc>
-<lastmod>2026-01-20T06:13:19+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/money-mindset/mailbox-fear-protocol/</loc>
-<lastmod>2026-01-20T06:13:19+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/money-mindset/scarcity-mindset/</loc>
-<lastmod>2026-01-20T06:13:19+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/money-mindset/turnaround-ceo-strategy/</loc>
-<lastmod>2026-01-20T06:13:19+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/templates/subscription-audit/</loc>
-<lastmod>2026-01-20T06:13:19+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/financial-strategist/</loc>
-<lastmod>2026-01-20T06:13:20+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/credit-audit/</loc>
-<lastmod>2026-01-20T06:13:20+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/bankruptcy-options-test/</loc>
-<lastmod>2026-01-20T06:13:20+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/anxiety-reduction-test/</loc>
-<lastmod>2026-01-20T06:13:20+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/expense-analysis-test/</loc>
-<lastmod>2026-01-20T06:13:20+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/organize-days/</loc>
-<lastmod>2026-01-20T06:13:20+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/doordash-profit-test/</loc>
-<lastmod>2026-01-20T06:13:21+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/tools/learning-platforms/</loc>
-<lastmod>2026-01-20T06:13:21+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/business-comebacks/story-james-caldwell/</loc>
-<lastmod>2026-01-20T06:13:21+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/career-pivots/story-sarah-pivot/</loc>
-<lastmod>2026-01-20T06:13:21+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/success-interviews/story-mark-rivera/</loc>
-<lastmod>2026-01-20T06:13:21+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/tools/business-formation/</loc>
-<lastmod>2026-01-20T06:13:22+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/recommended-services/</loc>
-<lastmod>2026-01-20T06:13:22+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/career-pivots/accidental-consultant/</loc>
-<lastmod>2026-01-20T06:13:22+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/career-rehab/</loc>
-<lastmod>2026-01-20T06:13:22+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/usertesting-review/</loc>
-<lastmod>2026-01-20T06:13:22+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/upwork-vs-fiverr/</loc>
-<lastmod>2026-01-20T06:13:22+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/retail-arbitrage/</loc>
-<lastmod>2026-01-20T06:13:23+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/selling-household-items/</loc>
-<lastmod>2026-01-20T06:13:23+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/print-on-demand-test/</loc>
-<lastmod>2026-01-20T06:13:23+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/tools/budgeting-apps/</loc>
-<lastmod>2026-01-20T06:13:23+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/free-tools/debt-strategy/</loc>
-<lastmod>2026-01-20T06:13:23+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/tools/credit-monitoring/</loc>
-<lastmod>2026-01-20T06:13:23+00:00</lastmod>
-<priority>0.51</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/recommended-services/credit-builder-loans/</loc>
-<lastmod>2026-01-20T06:13:24+00:00</lastmod>
-<priority>0.41</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/recommended-services/identity-protection/</loc>
-<lastmod>2026-01-20T06:13:24+00:00</lastmod>
-<priority>0.41</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/resources/recommended-services/rent-reporting-reviews/</loc>
-<lastmod>2026-01-20T06:13:24+00:00</lastmod>
-<priority>0.41</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/tools/accounting-software/</loc>
-<lastmod>2026-01-20T06:13:24+00:00</lastmod>
-<priority>0.41</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/financial-basics/</loc>
-<lastmod>2026-01-20T06:13:25+00:00</lastmod>
-<priority>0.41</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/financial-basics/bank-separation-strategy/</loc>
-<lastmod>2026-01-20T06:13:25+00:00</lastmod>
-<priority>0.33</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/financial-basics/bill-triage-protocol/</loc>
-<lastmod>2026-01-20T06:13:25+00:00</lastmod>
-<priority>0.33</priority>
-</url>
-<url>
-<loc>https://www.morethanbankruptcy.com/guides/financial-basics/chexsystems-bypass/</loc>
-<lastmod>2026-01-20T06:13:25+00:00</lastmod>
-<priority>0.33</priority>
-</url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/budgeting-101/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/budgeting-101/cash-stuffing-binder/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/budgeting-101/costco-for-singles/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/budgeting-101/stop-cutting-lattes/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
 
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/credit-fundamentals/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/credit-fundamentals/15-3-payment-rule/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/credit-fundamentals/authorized-user-hack/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/credit-fundamentals/financial-basics/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/credit-fundamentals/secured-card-strategy/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/financial-basics/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/financial-basics/bank-separation-strategy/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/financial-basics/bill-triage-protocol/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/financial-basics/chexsystems-bypass/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/money-mindset/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/money-mindset/mailbox-fear-protocol/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/money-mindset/scarcity-mindset/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/guides/money-mindset/turnaround-ceo-strategy/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/anxiety-reduction-test/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/bankruptcy-options-test/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/credit-audit/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/credit-audit-protocol/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/expense-analysis-test/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/financial-strategist/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/ai-assist/organize-days/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/career-rehab/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/career-rehab/contract-to-hire-strategy/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/career-rehab/credit-freeze-background-check/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/career-rehab/removing-ceo-from-resume/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/freelancing/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/side-income/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/skills/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/business-comebacks/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/business-comebacks/story-james-caldwell/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/career-pivots/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/career-pivots/accidental-consultant/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/career-pivots/story-sarah-pivot/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/success-interviews/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/success-interviews/story-mark-rivera/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/doordash-profit-test/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/print-on-demand-test/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/retail-arbitrage/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/retail-arbitrage-flip/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/selling-household-items/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/upwork-vs-fiverr/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/rebuild/stories/income-experiments/usertesting-review/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/calculators/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/calculators/gig-wage/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/calculators/side-hustle-tax/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/free-tools/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/free-tools/debt-strategy/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/recommended-services/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/recommended-services/credit-builder-loans/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/recommended-services/identity-protection/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/recommended-services/rent-reporting-reviews/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/templates/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/templates/crisis-budget/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/templates/dispute-letters/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/resources/templates/subscription-audit/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+
+  <url>
+    <loc>https://www.morethanbankruptcy.com/tools/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/tools/accounting-software/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/tools/budgeting-apps/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/tools/business-formation/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/tools/credit-monitoring/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/tools/learning-platforms/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/tools/secured-credit-cards/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
+  <url>
+    <loc>https://www.morethanbankruptcy.com/tools/side-hustle-platforms/</loc>
+    <lastmod>2026-01-26</lastmod>
+  </url>
 </urlset>
